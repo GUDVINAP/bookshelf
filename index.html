@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Книжная полка</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <h1 class="text-lable col-lg-12">Книжная полка</h1>
+            <div class="col-lg-12 text-left">
+                <button class="book-add btn btn-secondary" data-toggle="modal" data-target="#modal-add-book">Добавить книгу</button>
+            </div>
+            <div class="col-lg-12">
+                <div class="row book-panel">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal-window -->
+    <div class="modal fade" id="modal-add-book" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Редактирование книги</h5>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group row">
+                            <label for="book-name" class="col-sm-2 col-form-label test_zentr">Наименование</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" name="book-name" id="book-name" value="ES6 и не только">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="book-author" class="col-sm-2 col-form-label test_zentr">Автор</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" name="book-author" id="book-author" value="Кайл Симпсон">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="book-year" class="col-sm-2 col-form-label test_zentr">Год выпуска</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" name="book-year" id="book-year" value="2017г.">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                                <label for="book-cover" class="col-sm-2 col-form-label test_zentr">Изображение</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" name="book-cover" id="book-cover" value="https://img-gorod.ru/25/422/2542297_detail.jpg">
+                                </div>
+                            </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" id="modal-add-book-ok">Сохронить</button>
+                    <button type="button" class="btn btn-light" data-dismiss="modal">Отменить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body> 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</html>

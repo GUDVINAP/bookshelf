@@ -1,0 +1,145 @@
+body {
+  background: #f2f2f2;
+}
+
+.text-lable {
+  margin-top: 5rem;
+  font-size: 50px;
+}
+
+.btn-secondary {
+  margin-top: 1.5rem;
+  background: #c6c6c6;
+  border-color: #c6c6c6;
+  border-radius: 0px;
+  padding: 10px 70px 10px 70px;
+}
+
+.btn-light {
+  margin-top: 1.5rem;
+  color: #979797;
+  background: #eaeaea;
+  border-color: #eaeaea;
+  border-radius: 0px;
+  padding: 10px 70px 10px 70px;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-footer {
+  border-top: none;
+}
+
+.modal-title {
+  line-height: 5rem;
+}
+
+.modal-title {
+  font-size: 2rem;
+}
+
+#book-year {
+  width: 10%;
+}
+
+.modal-lg {
+  max-width: 90% !important;
+  padding: 10%;
+}
+
+.modal-footer {
+  display: block;
+}
+
+.book-panel {
+  margin-top: 2rem;
+  display: block;
+}
+
+h4.book-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  white-space: nowrap;
+  margin-left: 283px;
+  margin-top: -238px;
+}
+
+p.book-year {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 283px;
+}
+
+.book-panel {
+  background: #fff;
+}
+
+.btn_success {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+  margin-left: 283px;
+  margin-left: 350%;
+  color: #979797;
+  background: #fff;
+  border-color: #eaeaea;
+  border-radius: 0px;
+  padding: 10px 45px 10px 45px;
+}
+
+.btn_warning {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 283px;
+  margin-left: 350%;
+  color: #979797;
+  background: #fff;
+  border-color: #eaeaea;
+  border-radius: 0px;
+  padding: 10px 70px 10px 70px;
+}
+
+.book-cover {
+  margin-bottom: 30px;
+  height: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.book-author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  white-space: nowrap;
+  margin-left: 283px;
+}
+
+.test_zentr {
+  margin-left: 1px;
+}
+
+.book {
+  margin-top: 75px;
+}
+
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:visited {
+  background-color: gray;
+  color: #fff;
+}
+
+.btn-warning:hover,
+.btn-warning:active,
+.btn-warning:focus,
+.btn-warning:visited {
+  background-color: gray;
+  color: #fff;
+}
